@@ -1,5 +1,48 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+  }
+  
+  /* Aqui van los estilos de la card */
+  
+  #card {
     background: white;
-}
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  /* Aqui van los estilos de el simbolo de arriba */
+  
+  #simbol-left {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 100px;
+  }
+  /* Aqui van los estilos de los valores del centro */
+  
+  #number-center {
+    font-size: 100px;
+    font-weight: bold;
+  }
+  /* Aqui van los estilos de el simbolo de abajo */
+  
+  #simbol-right {
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    font-size: 100px;
+  }
+  
